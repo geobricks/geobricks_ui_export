@@ -1,9 +1,7 @@
-var root = '../modules/';
-
 define(['jquery',
         'mustache',
-        'text!' + root + 'geobricks_ui_export/html/templates.html',
-        'i18n!' + root + 'geobricks_ui_export/nls/translate',
+        'text!geobricks_ui_export/html/templates.html',
+        'i18n!geobricks_ui_export/nls/translate',
         'bootstrap'], function ($, Mustache, templates, translate) {
 
     'use strict';
